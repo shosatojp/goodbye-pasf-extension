@@ -8,4 +8,6 @@ function injectScript(parent, path) {
     parent.appendChild(e);
 }
 
-injectScript(document.body, '/inject.js');
+window.addEventListener('DOMContentLoaded', () => {
+    injectScript(document.body, '/inject.js');
+});

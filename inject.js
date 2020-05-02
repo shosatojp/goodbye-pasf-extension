@@ -5,7 +5,5 @@
         display: none;
     }
     `;
-    window.addEventListener('DOMContentLoaded', () => {
-        window.document.body.appendChild(e);
-    });
+    document.body.appendChild(e);
 })();
